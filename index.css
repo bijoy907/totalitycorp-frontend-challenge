@@ -1,0 +1,78 @@
+body{
+  background-image: url("../img/gym.jpg"); 
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.outerdiv{
+  position: relative;
+  width: 100%;
+  height: 98vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  text-align: center;
+ }
+ .innerdiv{
+  position: absolute;
+  opacity: 0.8;
+  /* background: transparent; */
+  width: 30%;
+  height: 70vh;
+  margin-right: 4%;
+  border: 2px solid rgb(228, 228, 228);
+  background-color: rgb(123, 134, 128);
+  box-shadow: 5px 5px 25px --5px rgba(0, 0, 0, 0);
+  border-radius: 10px;
+ }
+ button{
+  color: aliceblue;
+  border: 2px solid rgb(4, 29, 0);
+  border-radius: 25px;
+  background: rgb(129, 177, 39);
+  margin-top: 5%;
+  width: 180px;
+  height: 30px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(75, 71, 71);
+  color: rgb(97, 223, 181);
+  border: 2px solid rgb(202, 174, 16);
+}
+input{
+  height: 29px;
+  width: 200px;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+input:hover{
+  height: 30px;
+  width: 210px;
+  border: 2px solid rgb(238, 219, 112);
+}
+h1{
+  color: rgb(255, 217, 0);
+  background: transparent;
+  background-color: rgba(133, 148, 137, 0.699);
+  padding: 6px 0 2px 0;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.3);
+}
+.submit_disply{
+  height: 40px;
+  width: 50%;
+  padding-top: 10px;
+  background-color: rgba(151, 147, 144, 0.74);
+  /* display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; */
+  text-align: center;
+  border: 1px solid wheat;
+  border-radius: 5px;
+  margin-left: 25%;
+}
+
